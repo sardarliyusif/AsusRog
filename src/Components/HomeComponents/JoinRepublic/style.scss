@@ -1,0 +1,25 @@
+.join-republic{
+    background-image: url('https://dlcdnwebimgs.asus.com/gain/FDFFE426-0A29-40D5-8E26-C838EB26CA8F');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 50vh;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 5rem;
+    text-align: left;
+    h4{
+        font-size: 2rem;
+        max-width: 600px;
+        margin-bottom: 1rem;
+        font-weight: 700;
+    }
+    p{
+        font-size: 1.5rem;
+        max-width: 600px;
+    }
+}

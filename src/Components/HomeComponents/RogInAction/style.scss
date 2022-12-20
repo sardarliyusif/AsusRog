@@ -1,0 +1,68 @@
+.container-recent {
+    width: 90%;
+  }
+  
+  .rog-in-action-section {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding: 2rem;
+    .card-text {
+      text-align: center;
+      margin-bottom: 1rem;
+      h2{
+        font-size: 2rem;
+        font-weight: 700;
+      }
+    }
+    .recent-stores__cards__up {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+  
+      &__card {
+        background-image: url("https://dlcdnrog.asus.com/rog/media/1671059676670.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        width: 33%;
+        min-height: 300px;
+        align-items: flex-end;
+        position: relative;
+        p{
+            left: 0;
+            bottom: -50px;
+            position: absolute;
+          color: #000;
+          font-weight: 700;
+        }
+      }
+    }
+    .recent-stores__cards__down {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+  
+      &__card {
+        background-image: url("https://dlcdnrog.asus.com/rog/media/1667344658657.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        width: 50%;
+        min-height: 300px;
+        align-items: flex-end;
+        p{
+          color: #fff;
+          font-weight: 700;
+          padding: 1rem;
+        }
+      }
+    }
+  }
+  
