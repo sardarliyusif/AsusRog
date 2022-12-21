@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.scss";
-function RecentStories() {
+export function RecentStories() {
   return (
     <>
       <section className="recent-section">
@@ -48,4 +48,4 @@ function RecentStories() {
   );
 }
 
-export default RecentStories;
+

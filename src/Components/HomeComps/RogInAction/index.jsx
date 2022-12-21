@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.scss'
 
-const RogInAction = () => {
+export const RogInAction = () => {
   return (
     <>
       <section className="rog-in-action-section">
@@ -9,8 +9,8 @@ const RogInAction = () => {
           <div className="card-text">
             <h2>Rog In Action</h2>
           </div>
-          <div className="recent-stores__cards__up">
-            <a href="#" className="recent-stores__cards__up__card">
+          <div className="rog-in-action__cards__up">
+            <a href="#" className="rog-in-action__cards__up__cardd">
               <p>
                 Gaming
                 <br />
@@ -18,7 +18,7 @@ const RogInAction = () => {
               AFTER ONE YEAR WITH XBOX GAME PASS, I'M NEVER GIVING IT UP
               </p>
             </a>
-            <a href="#" className="recent-stores__cards__up__card">
+            <a href="#" className="rog-in-action__cards__up__cardd">
               <p>
               Gaming
                 <br />
@@ -26,7 +26,7 @@ const RogInAction = () => {
               AFTER ONE YEAR WITH XBOX GAME PASS, I'M NEVER GIVING IT UP
               </p>
             </a>
-            <a href="#" className="recent-stores__cards__up__card">
+            <a href="#" className="rog-in-action__cards__up__cardd">
               <p>
               Gaming
                 <br />
@@ -42,4 +42,3 @@ const RogInAction = () => {
   )
 }
 
-export default RogInAction

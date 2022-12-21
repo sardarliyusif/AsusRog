@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.scss'
 
-function FooterComponents() {
+export function FooterComponents() {
   return (
     <footer className='footer'>
       <div className='footer__nav'>
@@ -58,5 +58,3 @@ function FooterComponents() {
     </footer>
   )
 }
-
-export default FooterComponents

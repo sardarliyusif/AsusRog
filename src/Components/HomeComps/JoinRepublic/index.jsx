@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.scss";
 
-const JoinRepublic = () => {
+export const JoinRepublic = () => {
   return (
     <section className="join-republic">
       <h4>THE ART OF THE ROG UNIVERSE</h4>
@@ -15,4 +15,4 @@ const JoinRepublic = () => {
   );
 };
 
-export default JoinRepublic;
+

@@ -19,12 +19,12 @@
         font-weight: 700;
       }
     }
-    .recent-stores__cards__up {
+    .rog-in-action__cards__up {
       display: flex;
       gap: 1rem;
       margin-bottom: 1rem;
   
-      &__card {
+      &__cardd {
         background-image: url("https://dlcdnrog.asus.com/rog/media/1671059676670.webp");
         background-size: cover;
         background-repeat: no-repeat;
@@ -43,7 +43,7 @@
         }
       }
     }
-    .recent-stores__cards__down {
+    .rog-in-action__cards__down {
       display: flex;
       gap: 1rem;
       margin-bottom: 1rem;
@@ -66,3 +66,13 @@
     }
   }
   
+
+  @media only screen and (max-width: 768px){
+    .rog-in-action__cards__up{
+      flex-direction: column;
+      &__cardd{
+        width: 100% !important;
+        margin-bottom: 5rem;
+      }
+    }
+  }

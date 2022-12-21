@@ -1,7 +1,6 @@
 import React from 'react'
-import './style.scss'
 
-function SlickSlider() {
+export function Carousel() {
   return (
     <>
     <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -49,4 +48,3 @@ function SlickSlider() {
   )
 }
 
-export default SlickSlider

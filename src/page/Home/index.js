@@ -1,17 +1,13 @@
 import React from 'react'
-import NavbarComponents from '../../Components/NavbarComponents'
-import ExploreProducts from '../../Components/HomeComponents/ExploreProducts'
-import RecentStories from '../../Components/HomeComponents/RecentStories'
-import SlickSlider from '../../Components/HomeComponents/SlickSlider'
-import FooterComponents from '../../Components/FooterComponents'
-import RogInAction from '../../Components/HomeComponents/RogInAction'
-import JoinRepublic from '../../Components/HomeComponents/JoinRepublic'
+import {NavbarComponents , ExploreProducts , RecentStories , FooterComponents , RogInAction , JoinRepublic , Carousel} from '../../Components'
+
+
 
 function Home() {
   return (
     <React.StrictMode>
     <NavbarComponents/>
-    <SlickSlider/>
+    <Carousel/>
     <ExploreProducts/>
     <RecentStories/>
     <RogInAction/>

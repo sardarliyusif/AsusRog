@@ -68,3 +68,37 @@
     }
   }
 }
+
+@media only screen and (max-width: 768px){
+	.recent-section{
+    .recent-stores__cards__up{
+      overflow: scroll;
+      &__card{
+        min-width: 400px;
+      }
+    }
+    .recent-stores__cards__down{
+      overflow: scroll;
+      &__card{
+        min-width: 400px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px){
+	.recent-section{
+    margin-top: 50px;
+    .recent-stores__cards__up{
+      &__card{
+        min-width: 200px;
+        min-height: 280px;
+      }
+    }
+    .recent-stores__cards__down{
+      &__card{
+        min-width: 200px;
+        min-height: 280px;
+      }
+    }
+  }
+}

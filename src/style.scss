@@ -46,3 +46,14 @@ table {
 a{
     text-decoration: none;
 }
+
+@media only screen and (max-width: 768px){
+	html{
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 425px){
+	html{
+		font-size: 12px;
+	}
+}

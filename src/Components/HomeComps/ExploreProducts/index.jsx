@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.scss'
-function ExploreProducts() {
+export function ExploreProducts() {
   return (
     <>
 
@@ -28,19 +28,19 @@ function ExploreProducts() {
               </div>
               <div class="d-none d-md-block d-lg-none">
                 <div class="slide-box">
-                  <img src="" alt="First slide" />
-                  <img src="" alt="First slide" />
-                  <img src="" alt="First slide" />
+                  <img src="https://dlcdnwebimgs.asus.com/gain/868C3307-DD02-4624-8BA7-31B62EE4A38F/w240/h175" alt="First slide" />
+                  <img src="https://dlcdnwebimgs.asus.com/gain/3563183B-A875-4ACE-82E9-DDFD0406562B/w240/h175" alt="First slide" />
+                  <img src="https://dlcdnwebimgs.asus.com/gain/D3BB6D74-87CF-4FEF-ABE6-4E47535C2F6C/w240/h175" alt="First slide" />
                 </div>
               </div>
               <div class="d-none d-sm-block d-md-none">
                 <div class="slide-box">
-                  <img src="" alt="First slide" />
-                  <img src="" alt="First slide" />
+                  <img src="https://dlcdnwebimgs.asus.com/gain/D3BB6D74-87CF-4FEF-ABE6-4E47535C2F6C/w240/h175" alt="First slide" />
+                  <img src="https://dlcdnwebimgs.asus.com/gain/868C3307-DD02-4624-8BA7-31B62EE4A38F/w240/h175" alt="First slide" />
                 </div>
               </div>
               <div class="d-block d-sm-none">
-                <img class="d-block w-100" src="" alt="First slide" />
+                <img class="d-block w-100" src="https://dlcdnwebimgs.asus.com/gain/868C3307-DD02-4624-8BA7-31B62EE4A38F/w240/h175" alt="First slide" />
               </div>
             </div>
             <div class="carousel-item">
@@ -86,4 +86,3 @@ function ExploreProducts() {
   )
 }
 
-export default ExploreProducts

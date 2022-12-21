@@ -47,3 +47,36 @@
         }
     }
 }
+@media only screen and (max-width: 768px) {
+    
+    .footer{
+        padding: 2rem 0.5rem;
+        background-color: black;
+        background-image: none;
+        &__nav{
+            flex-direction: column;
+            &__left{
+                flex-direction: column;
+                li{
+                    padding: 1rem 0;
+                    border-bottom: 1px solid #ddd;
+                }
+
+            }
+            &__social{
+                margin-top: 1rem;
+                justify-content: center;
+                li{
+                    margin-left: 0.5rem;
+                }
+            }
+        }
+        &__policy{
+            flex-direction: column;
+            align-items: center;
+            ul{
+                margin-top: 1rem;
+            }
+        }
+    }
+}
